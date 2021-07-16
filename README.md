@@ -27,7 +27,7 @@ Para mudança de cor utliza-se a propriedade `color` com quatro valores ( `defau
 <br />
 | `<Button color="default" />` | `<Button color="primary" />` | `<Button color="secondary" />` | `<Button color="danger" />`
 |---| --- | --- | --- |
-| ![screen](https://github.com/alexdiegoo/button-component-challenge/blob/main/.github/images/print_1.PNG) | ![screen](./.github/images/print_4.png) | ![screen](./.github/images/print_5.png) | ![screen](https://github.com/alexdiegoo/button-component-challenge/blob/main/.github/images/print_6.PNG)
+| ![screen](https://github.com/alexdiegoo/button-component-challenge/blob/main/.github/images/print_1.PNG) | ![screen](https://github.com/alexdiegoo/button-component-challenge/blob/main/.github/images/print_4.PNG) | ![screen](https://github.com/alexdiegoo/button-component-challenge/blob/main/.github/images/print_5.PNG) | ![screen](https://github.com/alexdiegoo/button-component-challenge/blob/main/.github/images/print_6.PNG)
 
 ### Variante:
 O botão também pode variar seu estilo, utilizando `variant` com três valores ( `default`, `outline`, `text`).
