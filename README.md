@@ -5,6 +5,8 @@ Resolução do desafio <a href="https://devchallenges.io/challenges/ohgVTyJCbm5O
 ## 🔥 Desafio:
 Criar um componente de botão personalizavel com todos os estados no <a href="https://www.figma.com/file/vfMDJhGGnqfaskO2aud06o/button-component?node-id=0%3A1">design</a> e uma página exibindo todos os estados.
 
+Veja o resultado final <a href="https://laughing-jones-277747.netlify.app/">aqui.</a>
+
 ### Etapas concluidas:
 * [✔] Diferentes tipos de botão: padrão, contorno e texto.
 * [✔] Desativar 'box-shadow'.
@@ -52,3 +54,4 @@ Para desativar a sombra utiliza-se `disableShadow` e para desativar o botão `di
 ## 📚 Aprendizados
 Este foi um ótimo desafio para praticar criação de componentes personalizaveis e aprender a utilizar as props do React.
 Combinando as propriedades é possivel ter varias opções de personalização dos botões.
+<a href="https://laughing-jones-277747.netlify.app/">Demonstração final</a>
