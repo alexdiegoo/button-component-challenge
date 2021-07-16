@@ -20,34 +20,34 @@ Para mudança de tamanho utliza-se a propriedade `size` com três valores ( `sm`
 <br />
 | `<Button size="sm" />` | `<Button size="md" />` | `<Button size="lg" />`
 |---| --- | --- |
-| ![screen](./.github/images/print_1.png) | ![screen](./.github/images/print_2.png) | ![screen](./.github/images/print_3.png)
+| ![screen](https://github.com/alexdiegoo/button-component-challenge/blob/main/.github/images/print_1.PNG) | ![screen](https://github.com/alexdiegoo/button-component-challenge/blob/main/.github/images/print_2.PNG) | ![screen](https://github.com/alexdiegoo/button-component-challenge/blob/main/.github/images/print_3.PNG)
 
 ### Cores:
 Para mudança de cor utliza-se a propriedade `color` com quatro valores ( `default`, `primary`, `secondary`, `danger`)
 <br />
 | `<Button color="default" />` | `<Button color="primary" />` | `<Button color="secondary" />` | `<Button color="danger" />`
 |---| --- | --- | --- |
-| ![screen](./.github/images/print_1.png) | ![screen](./.github/images/print_4.png) | ![screen](./.github/images/print_5.png) | ![screen](./.github/images/print_6.png)
+| ![screen](https://github.com/alexdiegoo/button-component-challenge/blob/main/.github/images/print_1.PNG) | ![screen](./.github/images/print_4.png) | ![screen](./.github/images/print_5.png) | ![screen](https://github.com/alexdiegoo/button-component-challenge/blob/main/.github/images/print_6.PNG)
 
 ### Variante:
 O botão também pode variar seu estilo, utilizando `variant` com três valores ( `default`, `outline`, `text`).
 <br />
 | `<Button variant="default" />` | `<Button variant="outline" />` | `<Button variant="text" />`
 |---| --- | --- |
-| ![screen](./.github/images/print_1.png) | ![screen](./.github/images/print_7.png) | ![screen](./.github/images/print_8.png)
+| ![screen](https://github.com/alexdiegoo/button-component-challenge/blob/main/.github/images/print_1.PNG) | ![screen](https://github.com/alexdiegoo/button-component-challenge/blob/main/.github/images/print_7.PNG) | ![screen](https://github.com/alexdiegoo/button-component-challenge/blob/main/.github/images/print_8.PNG)
 
 ### Desativar sombra e o botão:
 Para desativar a sombra utiliza-se `disableShadow` e para desativar o botão `disable`.
 | `<Button disableShadow />` | `<Button disable />`
 |---| --- |
-| ![screen](./.github/images/print_9.png) | ![screen](./.github/images/print_10.png) 
+| ![screen](https://github.com/alexdiegoo/button-component-challenge/blob/main/.github/images/print_9.PNG) | ![screen](https://github.com/alexdiegoo/button-component-challenge/blob/main/.github/images/print_10.PNG) 
 
 ### Icones:
 É possivel adicionar qualquer icone do <a href="https://google.github.io/material-design-icons/">Material Design</a> passando a propriedade `startIcon` ou `endIcon` com o nome do icone como valor.
 <br />
 | `<Button startIcon="local_grocery_store" />` | `<Button endIcon="local_grocery_store" />` | `<Button startIcon="logout" />`
 |---| --- | --- |
-| ![screen](./.github/images/print_11.png) | ![screen](./.github/images/print_12.png) | ![screen](./.github/images/print_13.png)
+| ![screen](https://github.com/alexdiegoo/button-component-challenge/blob/main/.github/images/print_11.PNG) | ![screen](https://github.com/alexdiegoo/button-component-challenge/blob/main/.github/images/print_12.PNG) | ![screen](https://github.com/alexdiegoo/button-component-challenge/blob/main/.github/images/print_13.PNG)
 
 ## 📚 Aprendizados
 Este foi um ótimo desafio para praticar criação de componentes personalizaveis e aprender a utilizar as props do React.
