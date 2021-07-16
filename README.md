@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Button Component
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Resolução do desafio <a href="https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY">https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY</a>
 
-## Available Scripts
+## 🔥 Desafio:
+Criar um componente de botão personalizavel com todos os estados no <a href="https://www.figma.com/file/vfMDJhGGnqfaskO2aud06o/button-component?node-id=0%3A1">design</a> e uma página exibindo todos os estados.
 
-In the project directory, you can run:
+### Etapas concluidas:
+* [✔] Diferentes tipos de botão: padrão, contorno e texto.
+* [✔] Desativar 'box-shadow'.
+* [✔] Desativar o botão.
+* [✔] Poder escolher ter icone à esquerda ou à direita.
+* [✔] Tamanhos de botão diferentes.
+* [✔] Cores de botão diferentes.
+* [✔] Indicadores visuais para quando passar o mouse.
 
-### `npm start`
+## 🎨 Propriedades do componente:
+### Tamanho:
+Para mudança de tamanho utliza-se a propriedade `size` com três valores ( `sm`, `md`, `lg`)
+<br />
+| `<Button size="sm" />` | `<Button size="md" />` | `<Button size="lg" />`
+|---| --- | --- |
+| ![screen](./.github/images/print_1.png) | ![screen](./.github/images/print_2.png) | ![screen](./.github/images/print_3.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Cores:
+Para mudança de cor utliza-se a propriedade `color` com quatro valores ( `default`, `primary`, `secondary`, `danger`)
+<br />
+| `<Button color="default" />` | `<Button color="primary" />` | `<Button color="secondary" />` | `<Button color="danger" />`
+|---| --- | --- | --- |
+| ![screen](./.github/images/print_1.png) | ![screen](./.github/images/print_4.png) | ![screen](./.github/images/print_5.png) | ![screen](./.github/images/print_6.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Variante:
+O botão também pode variar seu estilo, utilizando `variant` com três valores ( `default`, `outline`, `text`).
+<br />
+| `<Button variant="default" />` | `<Button variant="outline" />` | `<Button variant="text" />`
+|---| --- | --- |
+| ![screen](./.github/images/print_1.png) | ![screen](./.github/images/print_7.png) | ![screen](./.github/images/print_8.png)
 
-### `npm test`
+### Desativar sombra e o botão:
+Para desativar a sombra utiliza-se `disableShadow` e para desativar o botão `disable`.
+| `<Button disableShadow />` | `<Button disable />`
+|---| --- |
+| ![screen](./.github/images/print_9.png) | ![screen](./.github/images/print_10.png) 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Icones:
+É possivel adicionar qualquer icone do <a href="https://google.github.io/material-design-icons/">Material Design</a> passando a propriedade `startIcon` ou `endIcon` com o nome do icone como valor.
+<br />
+| `<Button startIcon="local_grocery_store" />` | `<Button endIcon="local_grocery_store" />` | `<Button startIcon="logout" />`
+|---| --- | --- |
+| ![screen](./.github/images/print_11.png) | ![screen](./.github/images/print_12.png) | ![screen](./.github/images/print_13.png)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📚 Aprendizados
+Este foi um ótimo desafio para praticar criação de componentes personalizaveis e aprender a utilizar as props do React.
+Combinando as propriedades é possivel ter varias opções de personalização dos botões.
